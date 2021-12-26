@@ -1,0 +1,112 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "paths": {
+      "@app/apm": [
+        "libs/apm/src"
+      ],
+      "@app/apm/*": [
+        "libs/apm/src/*"
+      ],
+      "@app/entity": [
+        "libs/entity/src"
+      ],
+      "@app/entity/*": [
+        "libs/entity/src/*"
+      ],
+      "@app/logger": [
+        "libs/logger/src"
+      ],
+      "@app/logger/*": [
+        "libs/logger/src/*"
+      ],
+      "@app/web-common": [
+        "libs/web-common/src"
+      ],
+      "@app/web-common/*": [
+        "libs/web-common/src/*"
+      ],
+      "@app/http-request": [
+        "libs/http-request/src"
+      ],
+      "@app/http-request/*": [
+        "libs/http-request/src/*"
+      ],
+      "@app/common": [
+        "libs/common/src"
+      ],
+      "@app/common/*": [
+        "libs/common/src/*"
+      ],
+      "@app/mailer": [
+        "libs/mailer/src"
+      ],
+      "@app/mailer/*": [
+        "libs/mailer/src/*"
+      ],
+      "@app/file-upload": [
+        "libs/file-upload/src"
+      ],
+      "@app/file-upload/*": [
+        "libs/file-upload/src/*"
+      ],
+      "@app/s3-upload": [
+        "libs/s3-upload/src"
+      ],
+      "@app/s3-upload/*": [
+        "libs/s3-upload/src/*"
+      ],
+      "@app/file-manager": [
+        "libs/file-manager/src"
+      ],
+      "@app/file-manager/*": [
+        "libs/file-manager/src/*"
+      ],
+      "@app/env-common": [
+        "libs/env-common/src"
+      ],
+      "@app/env-common/*": [
+        "libs/env-common/src/*"
+      ],
+      "@app/template-link": [
+        "libs/template-link/src"
+      ],
+      "@app/template-link/*": [
+        "libs/template-link/src/*"
+      ],
+      "@app/template-html": [
+        "libs/template-html/src"
+      ],
+      "@app/template-html/*": [
+        "libs/template-html/src/*"
+      ],
+      "@app/entity-service": [
+        "libs/entity-service/src"
+      ],
+      "@app/entity-service/*": [
+        "libs/entity-service/src/*"
+      ]
+    }
+  }
+}

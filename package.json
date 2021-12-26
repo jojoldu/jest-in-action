@@ -1,0 +1,21 @@
+{
+  "name": "jest-in-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@js-joda/core": "^4.3.1",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  }
+}
