@@ -1,9 +1,13 @@
-describe('test1', () => {
+describe('test1-solve2', () => {
   const stubFn = jest.fn();
 
   function call(message: any): void {
     stubFn(message);
   }
+
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
 
   test('Test 1', () => {
     // given

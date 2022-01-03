@@ -1,4 +1,4 @@
-describe('test1', () => {
+describe('test1-solve1', () => {
   const stubFn = jest.fn();
 
   function call(message: any): void {
@@ -19,6 +19,7 @@ describe('test1', () => {
 
   test('Test 2', () => {
     // given
+    stubFn.mockClear();
     const callMessage = 'Test 2 Call';
 
     // when
