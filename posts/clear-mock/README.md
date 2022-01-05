@@ -1,4 +1,4 @@
-# Jest 에서의 Mock/Spy/Stub 초기화
+# Jest 에서의 Mock/Spy/Stub 설정 및 초기화
 
 Jest를 통해 여러 테스트를 작성하다보면 테스트 대역 (Mock/Spy/Stub) 등을 사용할때가 종종 있습니다.  
 이들은 직접적으로 테스트 환경 구축에서 사용하긴 어려운 부분을 모의 객체 혹은 모의 행위로 교체해주는 역할을 하는데요.  
@@ -13,3 +13,9 @@ Jest를 통해 여러 테스트를 작성하다보면 테스트 대역 (Mock/Spy
 * 상황에 따라 (레거시 혹은 기존 테스트 환경의 불안정성) `beforeXXX` 에서 테스트 환경 설정 (`Table` clear 등)을 진행하기도 한다.
 * 다만 `beforeXXX` 에서 `given` 처리는 추천하지 않는다.
   * 참고: https://jojoldu.tistory.com/611
+
+
+## Mock/Spy 구현 (mockImplementation, mockImplementationOnce)
+
+
+
